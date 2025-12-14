@@ -2,7 +2,7 @@ from gradio_ui import app_ui
 
 
 def main():
-    app_ui.launch(server_port=9999, server_name="0.0.0.0")
+    app_ui.launch()
 
 
 if __name__ == "__main__":
